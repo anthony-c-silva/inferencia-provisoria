@@ -15,6 +15,7 @@ app = FastAPI(
 origins = [
     "http://localhost",
     "http://localhost:3000",
+    "https://www.bioailab.icu"
     # Você pode adicionar outras origens permitidas aqui
     # Ex: "https://seu-dominio-de-producao.com"
 ]
